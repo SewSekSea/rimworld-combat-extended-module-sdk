@@ -1,0 +1,200 @@
+{
+  "schema": 2,
+  "id": "sweetbriana.example.standard",
+  "name": "Ordinary ranged conversion",
+  "author": "SweetBriana",
+  "version": "1.0.0",
+  "apiMajor": 1,
+  "minimumApiMinor": 1,
+  "integrations": [
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "profileId": "ce.standard.ranged.v1"
+    }
+  ],
+  "contributions": [
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "item.mass",
+      "unit": "kg",
+      "value": 4,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "item.bulk",
+      "unit": "CE-bulk",
+      "value": 5,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.magazineSize",
+      "unit": "count",
+      "value": 24,
+      "kind": "integer"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.reloadTime",
+      "unit": "s",
+      "value": 2,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.recoil",
+      "unit": "degree",
+      "value": 0,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.burst",
+      "unit": "count",
+      "value": 3,
+      "kind": "integer"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.verbs.0.warmup",
+      "unit": "s",
+      "value": 0.6,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.verbs.0.range",
+      "unit": "cell",
+      "value": 40,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.cooldown",
+      "unit": "s",
+      "value": 0.2,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.spread",
+      "unit": "degree",
+      "value": 0.1,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.sway",
+      "unit": "ratio",
+      "value": 1,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.sightsEfficiency",
+      "unit": "ratio",
+      "value": 1.2,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.ammoSet",
+      "unit": "def",
+      "value": {
+        "type": "CombatExtended.AmmoSetDef",
+        "name": "CeSet"
+      },
+      "kind": "definition"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "ranged.verbs.0.defaultProjectile",
+      "unit": "def",
+      "value": {
+        "type": "ThingDef",
+        "name": "CeBullet"
+      },
+      "kind": "definition"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "melee.tools.0.damage",
+      "unit": "damage",
+      "value": 14,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "melee.tools.0.cooldown",
+      "unit": "s",
+      "value": 1,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "melee.tools.0.penetrationSharp",
+      "unit": "mm-RHA",
+      "value": 0.7,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "melee.tools.0.penetrationBlunt",
+      "unit": "MPa",
+      "value": 2,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "melee.tools.1.damage",
+      "unit": "damage",
+      "value": 15,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "melee.tools.1.cooldown",
+      "unit": "s",
+      "value": 1,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "melee.tools.1.penetrationSharp",
+      "unit": "mm-RHA",
+      "value": 0.7,
+      "kind": "number"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryGun",
+      "field": "melee.tools.1.penetrationBlunt",
+      "unit": "MPa",
+      "value": 2,
+      "kind": "number"
+    }
+  ]
+}

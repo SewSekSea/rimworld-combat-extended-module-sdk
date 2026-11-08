@@ -1,0 +1,18 @@
+<Defs>
+  <ThingDef><defName>OrdinaryVest</defName><thingClass>Apparel</thingClass><label>author vest</label>
+    <graphicData><texPath>Author/Vest</texPath></graphicData><costList><Steel>47</Steel></costList>
+    <statBases><Mass>3</Mass><ArmorRating_Sharp>0.3</ArmorRating_Sharp><ArmorRating_Blunt>0.2</ArmorRating_Blunt><ArmorRating_Heat>0.1</ArmorRating_Heat></statBases>
+    <comps><li Class="CompProperties_Forbiddable"/><li><compClass>CompColorable</compClass></li><li><compClass>CompQuality</compClass></li><li Class="CompProperties_Styleable"/></comps>
+    <apparel><bodyPartGroups><li>Torso</li></bodyPartGroups><layers><li>Middle</li></layers><wornGraphicPath>Author/WornVest</wornGraphicPath></apparel>
+  </ThingDef>
+  <ThingDef><defName>OrdinaryMace</defName><thingClass>ThingWithComps</thingClass><category>Item</category><equipmentType>Primary</equipmentType><label>author mace</label>
+    <graphicData><texPath>Author/Mace</texPath></graphicData><costList><Steel>23</Steel></costList><statBases><Mass>2</Mass></statBases>
+    <comps><li><compClass>CompEquippable</compClass></li><li><compClass>CompQuality</compClass></li></comps>
+    <tools><li><label>head</label><capacities><li>Blunt</li></capacities><power>5</power><cooldownTime>2</cooldownTime></li>
+      <li><label>point</label><capacities><li>Stab</li></capacities><power>4</power><cooldownTime>3</cooldownTime></li></tools>
+  </ThingDef>
+  <DamageDef><defName>Blunt</defName><workerClass>DamageWorker_Blunt</workerClass><armorCategory>Blunt</armorCategory><hediff>Crush</hediff></DamageDef><DamageDef><defName>Stab</defName><workerClass>DamageWorker_Stab</workerClass><armorCategory>Sharp</armorCategory><hediff>Stab</hediff></DamageDef>
+          <ToolCapacityDef><defName>Blunt</defName></ToolCapacityDef><ToolCapacityDef><defName>Stab</defName></ToolCapacityDef>
+  <ManeuverDef><defName>Smash</defName><requiredCapacity>Blunt</requiredCapacity><verb Class="CombatExtended.VerbPropertiesCE"><verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass><meleeDamageDef>Blunt</meleeDamageDef></verb></ManeuverDef>
+  <ManeuverDef><defName>Stab</defName><requiredCapacity>Stab</requiredCapacity><verb Class="CombatExtended.VerbPropertiesCE"><verbClass>CombatExtended.Verb_MeleeAttackCE</verbClass><meleeDamageDef>Stab</meleeDamageDef></verb></ManeuverDef>
+</Defs>

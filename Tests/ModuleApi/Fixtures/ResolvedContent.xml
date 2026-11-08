@@ -1,0 +1,15 @@
+<!-- Original synthetic resolved XML for API conformance. Not a playable content mod. -->
+<Defs>
+  <ThingDef><defName>ExampleRifle</defName><statBases><Mass>3</Mass><Bulk>6</Bulk></statBases>
+    <verbs><li Class="CombatExtended.VerbPropertiesCE"><recoilAmount>1.5</recoilAmount><warmupTime>1</warmupTime><range>40</range></li></verbs>
+    <comps><li Class="CombatExtended.CompProperties_AmmoUser"><magazineSize>30</magazineSize><reloadTime>2</reloadTime><ammoSet>ExampleAmmoSet</ammoSet></li></comps>
+  </ThingDef>
+  <ThingDef><defName>ExamplePistol</defName>
+    <comps><li Class="CombatExtended.CompProperties_AmmoUser"><magazineSize>10</magazineSize><reloadTime>2</reloadTime><ammoSet>ExampleAmmoSet</ammoSet></li></comps>
+  </ThingDef>
+  <ThingDef><defName>ExampleKnife</defName><tools><li Class="CombatExtended.ToolCE"><power>10</power><cooldownTime>2</cooldownTime></li></tools></ThingDef>
+  <ThingDef><defName>ExampleVest</defName><apparel/><statBases><Mass>5</Mass><Bulk>8</Bulk><ArmorRating_Sharp>6</ArmorRating_Sharp><ArmorRating_Blunt>10</ArmorRating_Blunt><ArmorRating_Heat>0.4</ArmorRating_Heat></statBases></ThingDef>
+  <ThingDef Class="CombatExtended.AmmoDef"><defName>ExampleCartridge</defName><statBases><Mass>0.02</Mass></statBases></ThingDef>
+  <CombatExtended.AmmoSetDef><defName>ExampleAmmoSet</defName><ammoTypes><li><ammo>ExampleCartridge</ammo><projectile>ExampleBullet</projectile></li></ammoTypes></CombatExtended.AmmoSetDef>
+  <ThingDef><defName>ExampleBullet</defName><projectile Class="CombatExtended.ProjectilePropertiesCE"><damageAmountBase>16</damageAmountBase><speed>100</speed><mass>0.01</mass><suppressionFactor>1</suppressionFactor></projectile></ThingDef>
+</Defs>

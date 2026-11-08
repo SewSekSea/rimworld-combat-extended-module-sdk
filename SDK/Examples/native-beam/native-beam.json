@@ -1,0 +1,168 @@
+{
+  "schema": 2,
+  "id": "sweetbriana.example.beam",
+  "name": "Native beam author data",
+  "author": "SweetBriana",
+  "version": "1.0.0",
+  "apiMajor": 1,
+  "minimumApiMinor": 3,
+  "requiredCapabilities": [
+    "integration.native-beam.v1"
+  ],
+  "contributions": [
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "item.mass",
+      "unit": "kg",
+      "kind": "number",
+      "value": 2
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "item.bulk",
+      "unit": "CE-bulk",
+      "kind": "number",
+      "value": 3
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "ranged.magazineSize",
+      "unit": "count",
+      "kind": "integer",
+      "value": 5
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "ranged.reloadTime",
+      "unit": "s",
+      "kind": "number",
+      "value": 4
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "ranged.ammoSet",
+      "unit": "def",
+      "kind": "definition",
+      "value": {
+        "type": "CombatExtended.AmmoSetDef",
+        "name": "CeSet"
+      }
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "ranged.verbs.0.warmup",
+      "unit": "s",
+      "kind": "number",
+      "value": 1
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "ranged.verbs.0.range",
+      "unit": "cell",
+      "kind": "number",
+      "value": 40
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "ranged.verbs.0.burst",
+      "unit": "count",
+      "kind": "integer",
+      "value": 5
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "beam.interval",
+      "unit": "tick",
+      "kind": "integer",
+      "value": 22
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "beam.totalDamage",
+      "unit": "damage",
+      "kind": "number",
+      "value": 190
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "beam.width",
+      "unit": "cell",
+      "kind": "number",
+      "value": 6
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "beam.fullWidthRange",
+      "unit": "cell",
+      "kind": "number",
+      "value": 6.9
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "beam.maxDeviation",
+      "unit": "cell",
+      "kind": "number",
+      "value": 1.5
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "beam.curvature",
+      "unit": "cell",
+      "kind": "number",
+      "value": 0.6
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "beam.startOffset",
+      "unit": "cell",
+      "kind": "number",
+      "value": 0.8
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "beam.fireStartChance",
+      "unit": "fraction",
+      "kind": "number",
+      "value": 0.85
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "beam.fireAttachChance",
+      "unit": "fraction",
+      "kind": "number",
+      "value": 0.85
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "field": "beam.cooldown",
+      "unit": "s",
+      "kind": "number",
+      "value": 1.7
+    }
+  ],
+  "integrations": [
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryBeam",
+      "profileId": "ce.special.native-beam.v1"
+    }
+  ]
+}

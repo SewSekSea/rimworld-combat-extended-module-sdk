@@ -1,0 +1,170 @@
+{
+  "Contract": "1.3",
+  "FrameworkAuthor": "sweetbriana",
+  "Stage": "Public prerelease",
+  "SourceCommit": "f9b642a6465a41a21154e66abefc4840b34823f3",
+  "SourceSDK_SHA256": "E73815A314F75F0FA9DC45D75C3DE0E7E339B0A19594B5A024C680CDB67F386D",
+  "Members": [
+    {
+      "Path": "ATTRIBUTION.md",
+      "Bytes": 629,
+      "SHA256": "86125100319C42DCDF699813B50BA53E89B68C93B9AAB0DCC95B3DEAADF7240B"
+    },
+    {
+      "Path": "LICENSE.md",
+      "Bytes": 443,
+      "SHA256": "74E83CEBB0888CE327B7273E9BB404D723D64BD2ADF834B40BA65882119827CF"
+    },
+    {
+      "Path": "README.md",
+      "Bytes": 3474,
+      "SHA256": "BEB6E167FAB2BEA037F97A797700F0DB84F37E4308AF3F6DF60F05927A65F4A9"
+    },
+    {
+      "Path": "ref/CombatExtended.ModuleApi.dll",
+      "Bytes": 44032,
+      "SHA256": "2E1BBF79076DA91CAD76EAB32246820AB621880180D4CDBAFEF35EA1C953C4F6"
+    },
+    {
+      "Path": "SDK/Docs/API-v1-experimental.md",
+      "Bytes": 10382,
+      "SHA256": "11F486B828074B9FFC1D88576103782221FB2CCE4F06519C63BA53FFE6B6FD75"
+    },
+    {
+      "Path": "SDK/Docs/FIELDS.md",
+      "Bytes": 5886,
+      "SHA256": "AFFB73697611EB391B8751428629DBBC4105C527572ADC93F4E7BBD25986AAE4"
+    },
+    {
+      "Path": "SDK/Docs/NATIVE-BEAM.md",
+      "Bytes": 6792,
+      "SHA256": "171C92FB4B26596B47AFCAB57FB77019C8AB4ED82AB26034F9F921798950912F"
+    },
+    {
+      "Path": "SDK/Docs/STANDARD-EQUIPMENT.md",
+      "Bytes": 4314,
+      "SHA256": "49604EDEE05F73012820A092B3A62F7E263634D9D3E4D76C8CD3672DE6C5A894"
+    },
+    {
+      "Path": "SDK/Docs/STANDARD-RANGED.md",
+      "Bytes": 8943,
+      "SHA256": "970DEC2801BE1FADCB75FBD5DA5F0983445612AAB0505CDEF8A4679B04892B9E"
+    },
+    {
+      "Path": "SDK/Examples/armour.json",
+      "Bytes": 585,
+      "SHA256": "693875D67D6EB1697C881A33B48164717C6ED1C571CF85EA8695A22E124D6146"
+    },
+    {
+      "Path": "SDK/Examples/CSharpConsumer/CSharpConsumer.csproj",
+      "Bytes": 682,
+      "SHA256": "0E55E366D6412D5502586C16EBFF0CEEBF910DDCD66FC73B5A3D57458E6BF405"
+    },
+    {
+      "Path": "SDK/Examples/CSharpConsumer/Directory.Build.props",
+      "Bytes": 13,
+      "SHA256": "5C10E0DCA89D53FA828E2B8AD817F7DDECCB7775BEF36C1E75DBA0D87A103EE6"
+    },
+    {
+      "Path": "SDK/Examples/CSharpConsumer/ExampleConsumer.cs",
+      "Bytes": 744,
+      "SHA256": "1BE7829A45B92465D99E429C62322ECDAC5EFCBB17231280AF97051AFFB39501"
+    },
+    {
+      "Path": "SDK/Examples/CSharpConsumer/NativeBeamConsumer.cs",
+      "Bytes": 2412,
+      "SHA256": "E5A8E918B5F2438FD348252AEF1DF141D8792F6F3108E9C3B05FA722DF15CF9A"
+    },
+    {
+      "Path": "SDK/Examples/CSharpConsumer/StandardEquipmentConsumer.cs",
+      "Bytes": 2664,
+      "SHA256": "8E811D0CA26E3C3148F3A3E4205214964755DF9EABA2C1138DF1F72BB34B679B"
+    },
+    {
+      "Path": "SDK/Examples/CSharpConsumer/StandardRangedConsumer.cs",
+      "Bytes": 2762,
+      "SHA256": "466CDE54E22B3EC3AFC5E5B91FC2BEE40EDADBFEF5AC5D5DD93C5D020912183A"
+    },
+    {
+      "Path": "SDK/Examples/native-beam/native-beam.json",
+      "Bytes": 3845,
+      "SHA256": "495A9B2A27ADA970EE927A7E9922B4F6856CA2E99F4641EB23902C165E26E311"
+    },
+    {
+      "Path": "SDK/Examples/README.md",
+      "Bytes": 2612,
+      "SHA256": "1BB66E80CA21625B1E16C6F1D89AEC102A5E190457CE1F1E669B04919B8CA6A4"
+    },
+    {
+      "Path": "SDK/Examples/shared-ammunition.json",
+      "Bytes": 762,
+      "SHA256": "39EEDC09D9121F9A6F474AD1B3648AE09829107508D855619C6E69BE42319D4C"
+    },
+    {
+      "Path": "SDK/Examples/standard-equipment/README.md",
+      "Bytes": 1047,
+      "SHA256": "0E9A26EF138180D58F3C4D5614816B9464233BEB5772E50E5D41553EB2E900C1"
+    },
+    {
+      "Path": "SDK/Examples/standard-equipment/standard-equipment.json",
+      "Bytes": 3083,
+      "SHA256": "F2F80C154D4D45FD243E062ABD331258CEC4E6DA18BFCFF4EDABA0E8DB0D0B14"
+    },
+    {
+      "Path": "SDK/Examples/standard-ranged/standard-ranged.json",
+      "Bytes": 4628,
+      "SHA256": "1DB33F4CA56873DE141CAA0A21FE2B0E47EB34E1C1810A46798E19D1C336A9A5"
+    },
+    {
+      "Path": "SDK/Examples/weapon-melee.json",
+      "Bytes": 762,
+      "SHA256": "8A37F9E2777907189C1E31F0460713814E1F2FC9DF5AE1C98165B8F71E65A310"
+    },
+    {
+      "Path": "Tests/ModuleApi/Fixtures/OrdinaryEquipmentContent.xml",
+      "Bytes": 2350,
+      "SHA256": "D621C2B5A77345E1D333C0E54BC66B861711430916007530BF401A87BA29C552"
+    },
+    {
+      "Path": "Tests/ModuleApi/Fixtures/OrdinaryNativeBeamContent.xml",
+      "Bytes": 2480,
+      "SHA256": "C2860AEA857B84A62BCEE24B6D1074ACC47388A8168956077D97F8E128F5BFEA"
+    },
+    {
+      "Path": "Tests/ModuleApi/Fixtures/OrdinaryResolvedContent.xml",
+      "Bytes": 1455,
+      "SHA256": "3A51B97B9D3FC157B6A9C5B89A6D0191D6C11D0399987175862433EAEB33BE38"
+    },
+    {
+      "Path": "Tests/ModuleApi/Fixtures/ResolvedContent.xml",
+      "Bytes": 1717,
+      "SHA256": "7E8282CC87B0C96B9A18481A09D27AEC0F49601837CC3A3DBE96BDE74964E71E"
+    },
+    {
+      "Path": "tools/validator/CombatExtended.ModuleApi.dll",
+      "Bytes": 44544,
+      "SHA256": "61D2756EFD81C231D0D5A4B8A20F73E7C3CD659FC469A89AD68E101FE2BEAA5A"
+    },
+    {
+      "Path": "tools/validator/CombatExtended.ModuleRuntime.dll",
+      "Bytes": 175104,
+      "SHA256": "05284D679A52567C6337F37189E42FF68D0B8E1023BE6C288DA5BFC0AD24D6CF"
+    },
+    {
+      "Path": "tools/validator/ModuleValidator.deps.json",
+      "Bytes": 1325,
+      "SHA256": "2DCAD7C4D09F066425E401A0D21176CBB1BC45C337D11E0E35C4F9647F613927"
+    },
+    {
+      "Path": "tools/validator/ModuleValidator.dll",
+      "Bytes": 18944,
+      "SHA256": "6ADEC8033345F02B3A173893DB64782A79327959432C0EF9C3CD3EB07E9C998E"
+    },
+    {
+      "Path": "tools/validator/ModuleValidator.runtimeconfig.json",
+      "Bytes": 270,
+      "SHA256": "256DDA2706E1151BB95987B6B5BE610BF68D64E058285B19E7E958222FC90414"
+    }
+  ],
+  "License": "CC-BY-NC-SA-4.0"
+}

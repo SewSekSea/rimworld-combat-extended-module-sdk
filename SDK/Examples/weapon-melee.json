@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "sweetbriana.example.weapons",
+  "name": "Example weapon and melee data",
+  "author": "SweetBriana",
+  "version": "1.0.0",
+  "apiMajor": 1,
+  "minimumApiMinor": 0,
+  "requiredCapabilities": ["combat.ranged", "combat.melee", "combat.ammo"],
+  "contributions": [
+    {"targetType":"ThingDef","target":"ExampleRifle","field":"ranged.magazineSize","unit":"count","kind":"integer","value":24},
+    {"targetType":"ThingDef","target":"ExampleRifle","field":"ranged.recoil","unit":"degree","value":1.9},
+    {"targetType":"ThingDef","target":"ExamplePistol","field":"ranged.reloadTime","unit":"s","value":1.6},
+    {"targetType":"ThingDef","target":"ExampleKnife","field":"melee.tools.0.damage","unit":"damage","value":14}
+  ]
+}

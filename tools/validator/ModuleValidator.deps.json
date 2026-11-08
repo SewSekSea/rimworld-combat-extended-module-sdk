@@ -1,0 +1,55 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "ModuleValidator/1.0.0": {
+        "dependencies": {
+          "CombatExtended.ModuleRuntime": "1.0.0"
+        },
+        "runtime": {
+          "ModuleValidator.dll": {}
+        }
+      },
+      "CombatExtended.ModuleApi/0.1.0": {
+        "runtime": {
+          "CombatExtended.ModuleApi.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "CombatExtended.ModuleRuntime/1.0.0": {
+        "dependencies": {
+          "CombatExtended.ModuleApi": "0.1.0"
+        },
+        "runtime": {
+          "CombatExtended.ModuleRuntime.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ModuleValidator/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CombatExtended.ModuleApi/0.1.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CombatExtended.ModuleRuntime/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

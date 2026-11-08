@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "id": "sweetbriana.example.armour",
+  "name": "Example armour data",
+  "author": "SweetBriana",
+  "version": "1.0.0",
+  "apiMajor": 1,
+  "minimumApiMinor": 0,
+  "requiredCapabilities": ["combat.armour", "combat.carrying"],
+  "contributions": [
+    {"targetType":"ThingDef","target":"ExampleVest","field":"armour.sharp","unit":"mm-RHA","value":8},
+    {"targetType":"ThingDef","target":"ExampleVest","field":"armour.blunt","unit":"MPa","value":12},
+    {"targetType":"ThingDef","target":"ExampleVest","field":"item.mass","unit":"kg","value":5.5}
+  ]
+}

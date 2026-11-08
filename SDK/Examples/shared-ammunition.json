@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "sweetbriana.example.ammunition",
+  "name": "Example shared ammunition data",
+  "author": "SweetBriana",
+  "version": "1.0.0",
+  "apiMajor": 1,
+  "minimumApiMinor": 0,
+  "requiredCapabilities": ["combat.ballistics", "combat.suppression"],
+  "contributions": [
+    {"targetType":"ThingDef","target":"ExampleBullet","field":"projectile.damage","unit":"damage","kind":"integer","value":22},
+    {"targetType":"ThingDef","target":"ExampleBullet","field":"projectile.speed","unit":"m/s","value":750},
+    {"targetType":"ThingDef","target":"ExampleBullet","field":"projectile.mass","unit":"g","value":12},
+    {"targetType":"ThingDef","target":"ExampleBullet","field":"projectile.suppression","unit":"ratio","value":1.2}
+  ]
+}

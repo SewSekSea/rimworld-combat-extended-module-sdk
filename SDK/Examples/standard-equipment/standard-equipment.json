@@ -1,0 +1,135 @@
+{
+  "schema": 2,
+  "id": "sweetbriana.example.equipment",
+  "name": "Ordinary apparel and melee",
+  "author": "SweetBriana",
+  "version": "1.0.0",
+  "apiMajor": 1,
+  "minimumApiMinor": 2,
+  "integrations": [
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryVest",
+      "profileId": "ce.standard.apparel.v1"
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryMace",
+      "profileId": "ce.standard.melee.v1"
+    }
+  ],
+  "contributions": [
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryVest",
+      "field": "item.mass",
+      "unit": "kg",
+      "value": 3
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryVest",
+      "field": "item.bulk",
+      "unit": "CE-bulk",
+      "value": 5
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryVest",
+      "field": "apparel.wornBulk",
+      "unit": "CE-bulk",
+      "value": 2
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryVest",
+      "field": "armour.sharp",
+      "unit": "mm-RHA",
+      "value": 8
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryVest",
+      "field": "armour.blunt",
+      "unit": "MPa",
+      "value": 12
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryVest",
+      "field": "armour.heat",
+      "unit": "fraction",
+      "value": 0.4
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryMace",
+      "field": "item.mass",
+      "unit": "kg",
+      "value": 2
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryMace",
+      "field": "item.bulk",
+      "unit": "CE-bulk",
+      "value": 3
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryMace",
+      "field": "melee.tools.0.damage",
+      "unit": "damage",
+      "value": 14
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryMace",
+      "field": "melee.tools.0.cooldown",
+      "unit": "s",
+      "value": 1
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryMace",
+      "field": "melee.tools.0.penetrationSharp",
+      "unit": "mm-RHA",
+      "value": 0.7
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryMace",
+      "field": "melee.tools.0.penetrationBlunt",
+      "unit": "MPa",
+      "value": 2
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryMace",
+      "field": "melee.tools.1.damage",
+      "unit": "damage",
+      "value": 15
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryMace",
+      "field": "melee.tools.1.cooldown",
+      "unit": "s",
+      "value": 1
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryMace",
+      "field": "melee.tools.1.penetrationSharp",
+      "unit": "mm-RHA",
+      "value": 0.7
+    },
+    {
+      "targetType": "ThingDef",
+      "target": "OrdinaryMace",
+      "field": "melee.tools.1.penetrationBlunt",
+      "unit": "MPa",
+      "value": 2
+    }
+  ]
+}
